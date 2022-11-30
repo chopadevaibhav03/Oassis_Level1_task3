@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>onlineshoes.com</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+  <class class="body1">
+    <nav>
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    </nav>
+  </class>
+  <header class="hero">
+    <div class="container spacing">
+      <h1 class="primary-title">Onlineshoes.com</h1>
+      <h2>Two feet ahead of Rest</h2>
+      <p>This is the place where you will get variety of shoes with affordable price !!</p>
+      <a href="#" class="btn">Explore</a>
+    </div>
+  </header>
+  <main>
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a href="#">About</a>
+        <a href="#">Products</a>
+        <a href="#">Query</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+    <script>
+      function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+      }
+      function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+      }
+    </script>
+    <section class="featured">
+      <div class="container">
+        <h2 class="section-title">Best Sellers</h2>
+        <div class="split">
+          <a href="#" class="featured__item">
+            <img src="img/pic-1.png" alt="" class="featured__img">
+            <p class="featured__details"><span class="price">Rs 899</span>Campus Sports</p>
+          </a>
+          <a href="#" class="featured__item">
+            <img src="img/pic-2.png" alt="" class="featured__img">
+            <p class="featured__details"><span class="price">Rs 1799</span>Bata Heels</p>
+          </a>
+          <a href="#" class="featured__item">
+            <img src="img/pic-3.png" alt="" class="featured__img">
+            <p class="featured__details"><span class="price">Rs 1199</span>Bata Sandals</p>
+          </a>
+          <a href="#" class="featured__item">
+            <img src="img/pic-4.png" alt="" class="featured__img">
+            <p class="featured__details"><span class="price">Rs 1099</span>Nike Red</p>
+          </a>
+          <a href="#" class="featured__item">
+            <img src="img/pic-5.png" alt="" class="featured__img">
+            <p class="featured__details"><span class="price">Rs 1699</span>Adidas Casuals</p>
+          </a>
+          <a href="#" class="featured__item">
+            <img src="img/pic-6.png" alt="" class="featured__img">
+            <p class="featured__details"><span class="price">Rs 799</span>Jordan Casuals</p>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="our-products">
+      <div class="container">
+        <h2 class="section-title">More Products</h2>
+        <article class="product shoe-red spacing">
+          <img src="" alt="" class="product__image">
+          <h3 class="product__title">Boots</h3>
+          <p class="product__description">Dr. Marten's, Grenson, Red Wing, Timberland, Ariat, Helm, Danner, R.M.
+            Williams and Clarks etc<br>
+          </p>
+          <a href="" class="btn">Explore</a>
+        </article>
+        <article class="product shoe-blue spacing">
+          <img src="" alt="" class="product__image">
+          <h3 class="product__title">Shoes</h3>
+          <p class="product__description">Reebok, Adidas, Nike, PUMA, Woodland, Bata, Red Tape, FILA<br>
+          </p>
+          <a href="" class="btn">Explore</a>
+        </article>
+        <article class="product shoe-white spacing">
+          <img src="" alt="" class="product__image">
+          <h3 class="product__title">Sandals</h3>
+          <p class="product__description">Bata, Lee Cooper, Woodland, Nike, Adidas, Metro, Khadims, Mochi<br>
+          </p>
+          <a href="" class="btn">Explore</a>
+        </article>
+        <article class="product shoe-darkblue spacing">
+          <img src="" alt="" class="product__image">
+          <h3 class="product__title">Slippers</h3>
+          <p class="product__description">Nike, Adidas, Ralph Lauren Corporation, Sketchers, Steve Madden, Capri
+            Holdings, Woolrich<br>
+          </p>
+          <a href="" class="btn">Explore</a>
+        </article>
+        <article class="product shoe-yellow spacing">
+          <img src="" alt="" class="product__image">
+          <h3 class="product__title">Traditional Footwears</h3>
+          <p class="product__description"><br>
+          </p>
+          <a href="" class="btn">Explore</a>
+        </article>
+        <article class="product shoe-pink spacing">
+          <img src="" alt="" class="product__image">
+          <h3 class="product__title">Heels</h3>
+          <p class="product__description">Clarks.
+            Khadim's, Bata, Mochi, Hush Puppies, Liberty, Metro, Marc Lorie<br>
+          </p>
+          <a href="" class="btn">Explore</a>
+        </article>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
